@@ -1,0 +1,15 @@
+2021-11-08 11:43:30: -- Analysis Started by Periodic Timer
+2021-11-08 11:43:30: Delete abandoned lock file at gstp://10.10.1.236/file:///E:/IIS_HOSTED_SYS/002_leave.navy.lk/Signatures
+2021-11-08 11:43:30: ** Folder Locked, waiting for 0 min already, Folder='gstp://10.10.1.236/file:///E:/IIS_HOSTED_SYS/003_ems.navy.lk/LeaveSys/Signatures' Locked By: 16. IIS_BackupServer.Administrator@SDUADMIN at: 2021.11.08 11:21:15 Sri Lanka Standard Time
+2021-11-08 11:44:31: ** Folder Locked, waiting for 1 min already, Folder='gstp://10.10.1.236/file:///E:/IIS_HOSTED_SYS/003_ems.navy.lk/LeaveSys/Signatures' Locked By: 16. IIS_BackupServer.Administrator@SDUADMIN at: 2021.11.08 11:21:15 Sri Lanka Standard Time
+2021-11-08 11:45:31: ** Folder Locked, waiting for 2 min already, Folder='gstp://10.10.1.236/file:///E:/IIS_HOSTED_SYS/003_ems.navy.lk/LeaveSys/Signatures' Locked By: 16. IIS_BackupServer.Administrator@SDUADMIN at: 2021.11.08 11:21:15 Sri Lanka Standard Time
+2021-11-08 11:46:31: ** Folder Locked, waiting for 3 min already, Folder='gstp://10.10.1.236/file:///E:/IIS_HOSTED_SYS/003_ems.navy.lk/LeaveSys/Signatures' Locked By: 16. IIS_BackupServer.Administrator@SDUADMIN at: 2021.11.08 11:21:15 Sri Lanka Standard Time
+2021-11-08 11:47:32: ** Folder Locked, waiting for 4 min already, Folder='gstp://10.10.1.236/file:///E:/IIS_HOSTED_SYS/003_ems.navy.lk/LeaveSys/Signatures' Locked By: 16. IIS_BackupServer.Administrator@SDUADMIN at: 2021.11.08 11:21:15 Sri Lanka Standard Time
+2021-11-08 11:48:33: Changes: 0, Conflicts: 0, CopyTime: 0, CopyState: 0/14, Errors: 0, All: 2952
+2021-11-08 11:48:33: == Sync Started by Periodic Timer
+2021-11-08 11:48:55: == Sync Complete. Time: 00:00:22, Speed: 0 bytes/s, OK: 14, Errors: 0
+2021-11-08 11:48:55: Cannot rename lock file to stamp file: server said: The system cannot find the file specified.  (error 2)
+2021-11-08 11:48:55: Cannot delete Lock file: server said: Cannot delete file: The system cannot find the file specified.  (error 2)
+2021-11-08 11:48:55: Cannot rename lock file to stamp file: server said: The system cannot find the file specified.  (error 2)
+2021-11-08 11:48:55: Cannot delete Lock file: server said: Cannot delete file: The system cannot find the file specified.  (error 2)
+2021-11-08 11:48:55: 

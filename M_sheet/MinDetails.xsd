@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="MinDetails" targetNamespace="http://tempuri.org/MinDetails.xsd" xmlns:mstns="http://tempuri.org/MinDetails.xsd" xmlns="http://tempuri.org/MinDetails.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections>
+          <Connection AppSettingsObjectName="Web.config" AppSettingsPropertyName="MinutesConnectionString" ConnectionStringObject="" IsAppSettingsProperty="true" Modifier="Assembly" Name="MinutesConnectionString (Web.config)" ParameterPrefix="@" PropertyReference="AppConfig.System.Configuration.ConfigurationManager.0.ConnectionStrings.MinutesConnectionString.ConnectionString" Provider="System.Data.SqlClient" />
+        </Connections>
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="MinDetails" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="true" msprop:Generator_DataSetName="MinDetails" msprop:Generator_UserDSName="MinDetails">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="tblMin" msprop:Generator_TableClassName="tblMinDataTable" msprop:Generator_TableVarName="tabletblMin" msprop:Generator_RowChangedName="tblMinRowChanged" msprop:Generator_TablePropName="tblMin" msprop:Generator_RowDeletingName="tblMinRowDeleting" msprop:Generator_RowChangingName="tblMinRowChanging" msprop:Generator_RowEvHandlerName="tblMinRowChangeEventHandler" msprop:Generator_RowDeletedName="tblMinRowDeleted" msprop:Generator_RowClassName="tblMinRow" msprop:Generator_UserTableName="tblMin" msprop:Generator_RowEvArgName="tblMinRowChangeEvent">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Min_ID" msprop:Generator_ColumnVarNameInTable="columnMin_ID" msprop:Generator_ColumnPropNameInRow="Min_ID" msprop:Generator_ColumnPropNameInTable="Min_IDColumn" msprop:Generator_UserColumnName="Min_ID" type="xs:string" minOccurs="0" />
+              <xs:element name="Min_SubID" msprop:Generator_ColumnVarNameInTable="columnMin_SubID" msprop:Generator_ColumnPropNameInRow="Min_SubID" msprop:Generator_ColumnPropNameInTable="Min_SubIDColumn" msprop:Generator_UserColumnName="Min_SubID" type="xs:string" minOccurs="0" />
+              <xs:element name="Topic" msprop:Generator_ColumnVarNameInTable="columnTopic" msprop:Generator_ColumnPropNameInRow="Topic" msprop:Generator_ColumnPropNameInTable="TopicColumn" msprop:Generator_UserColumnName="Topic" type="xs:string" minOccurs="0" />
+              <xs:element name="ByPerson" msprop:Generator_ColumnVarNameInTable="columnByPerson" msprop:Generator_ColumnPropNameInRow="ByPerson" msprop:Generator_ColumnPropNameInTable="ByPersonColumn" msprop:Generator_UserColumnName="ByPerson" type="xs:string" minOccurs="0" />
+              <xs:element name="Date_Time" msprop:Generator_ColumnVarNameInTable="columnDate_Time" msprop:Generator_ColumnPropNameInRow="Date_Time" msprop:Generator_ColumnPropNameInTable="Date_TimeColumn" msprop:Generator_UserColumnName="Date_Time" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="MBody" msprop:Generator_ColumnVarNameInTable="columnMBody" msprop:Generator_ColumnPropNameInRow="MBody" msprop:Generator_ColumnPropNameInTable="MBodyColumn" msprop:Generator_UserColumnName="MBody" type="xs:string" minOccurs="0" />
+              <xs:element name="imagePath" msprop:Generator_ColumnVarNameInTable="columnimagePath" msprop:Generator_ColumnPropNameInRow="imagePath" msprop:Generator_ColumnPropNameInTable="imagePathColumn" msprop:Generator_UserColumnName="imagePath" type="xs:string" minOccurs="0" />
+              <xs:element name="Ref_Order" msprop:Generator_ColumnVarNameInTable="columnRef_Order" msprop:Generator_ColumnPropNameInRow="Ref_Order" msprop:Generator_ColumnPropNameInTable="Ref_OrderColumn" msprop:Generator_UserColumnName="Ref_Order" type="xs:int" minOccurs="0" />
+              <xs:element name="Description" msprop:Generator_ColumnVarNameInTable="columnDescription" msprop:Generator_ColumnPropNameInRow="Description" msprop:Generator_ColumnPropNameInTable="DescriptionColumn" msprop:Generator_UserColumnName="Description" type="xs:string" minOccurs="0" />
+              <xs:element name="Ref_Path" msprop:Generator_ColumnVarNameInTable="columnRef_Path" msprop:Generator_ColumnPropNameInRow="Ref_Path" msprop:Generator_ColumnPropNameInTable="Ref_PathColumn" msprop:Generator_UserColumnName="Ref_Path" type="xs:string" minOccurs="0" />
+              <xs:element name="Description1" msprop:Generator_ColumnVarNameInTable="columnDescription1" msprop:Generator_ColumnPropNameInRow="Description1" msprop:Generator_ColumnPropNameInTable="Description1Column" msprop:Generator_UserColumnName="Description1" type="xs:string" minOccurs="0" />
+              <xs:element name="Ref_Path1" msprop:Generator_ColumnVarNameInTable="columnRef_Path1" msprop:Generator_ColumnPropNameInRow="Ref_Path1" msprop:Generator_ColumnPropNameInTable="Ref_Path1Column" msprop:Generator_UserColumnName="Ref_Path1" type="xs:string" minOccurs="0" />
+              <xs:element name="Description2" msprop:Generator_ColumnVarNameInTable="columnDescription2" msprop:Generator_ColumnPropNameInRow="Description2" msprop:Generator_ColumnPropNameInTable="Description2Column" msprop:Generator_UserColumnName="Description2" type="xs:string" minOccurs="0" />
+              <xs:element name="Ref_Path2" msprop:Generator_ColumnVarNameInTable="columnRef_Path2" msprop:Generator_ColumnPropNameInRow="Ref_Path2" msprop:Generator_ColumnPropNameInTable="Ref_Path2Column" msprop:Generator_UserColumnName="Ref_Path2" type="xs:string" minOccurs="0" />
+              <xs:element name="User_ID" msprop:Generator_ColumnVarNameInTable="columnUser_ID" msprop:Generator_ColumnPropNameInRow="User_ID" msprop:Generator_ColumnPropNameInTable="User_IDColumn" msprop:Generator_UserColumnName="User_ID" type="xs:string" minOccurs="0" />
+              <xs:element name="Description3" msprop:Generator_ColumnVarNameInTable="columnDescription3" msprop:Generator_ColumnPropNameInRow="Description3" msprop:Generator_ColumnPropNameInTable="Description3Column" msprop:Generator_UserColumnName="Description3" type="xs:string" minOccurs="0" />
+              <xs:element name="Ref_Path3" msprop:Generator_ColumnVarNameInTable="columnRef_Path3" msprop:Generator_ColumnPropNameInRow="Ref_Path3" msprop:Generator_ColumnPropNameInTable="Ref_Path3Column" msprop:Generator_UserColumnName="Ref_Path3" type="xs:string" minOccurs="0" />
+              <xs:element name="Medium" msprop:Generator_ColumnVarNameInTable="columnMedium" msprop:Generator_ColumnPropNameInRow="Medium" msprop:Generator_ColumnPropNameInTable="MediumColumn" msprop:Generator_UserColumnName="Medium" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

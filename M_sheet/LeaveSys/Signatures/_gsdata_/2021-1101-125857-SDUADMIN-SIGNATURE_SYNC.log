@@ -1,0 +1,7 @@
+2021-11-01 12:58:57: -- Analysis Started by Periodic Timer
+2021-11-01 12:58:57: L: State file does not exist: gstp://10.10.1.236/file:///E:/IIS_HOSTED_SYS/002_leave.navy.lk/Signatures/_gsdata_/_file_state_v4._gs
+2021-11-01 12:58:57: R: State file does not exist: gstp://10.10.1.236/file:///E:/IIS_HOSTED_SYS/003_ems.navy.lk/LeaveSys/Signatures/_gsdata_/_file_state_v4._gs
+2021-11-01 12:58:58: Changes: 0, Conflicts: 0, CopyTime: 0, CopyState: 0/11, Errors: 0, All: 2943
+2021-11-01 12:58:58: == Sync Started by Periodic Timer
+2021-11-01 12:58:58: == Sync Complete. Time: 00:00:00, Speed: 0 bytes/s, OK: 11, Errors: 0
+2021-11-01 12:58:58: 

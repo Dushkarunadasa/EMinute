@@ -1,0 +1,13 @@
+2021-11-04 13:55:24: -- Analysis Started by Periodic Timer
+2021-11-04 13:55:24: -- Analysis Started by Periodic Timer
+2021-11-04 13:55:24: Error analyzing gstp://10.10.1.236/file:///E:/IIS_HOSTED_SYS/002_leave.navy.lk/Signatures: Error locking folder: Locking the already locked folder: means syncing folder with itself or its parent.
+'gstp://10.10.1.236/file:///E:/IIS_HOSTED_SYS/002_leave.navy.lk/Signatures' same as or parent/child of 'gstp://10.10.1.236/file:///E:/IIS_HOSTED_SYS/002_leave.navy.lk/Signatures'
+2021-11-04 13:55:24: 
+2021-11-04 13:55:24: Changes: 1, Conflicts: 0, CopyTime: 0, CopyState: 0/0, Errors: 0, All: 2949
+2021-11-04 13:55:24: Left to Right: Copy File: 1 
+2021-11-04 13:55:24: == Sync Started by Periodic Timer
+2021-11-04 13:55:24: Copy New 'gstp://10.10.1.236/file:///E:/IIS_HOSTED_SYS/002_leave.navy.lk/Signatures/5896.jpg' -> 'gstp://10.10.1.236/file:///E:/IIS_HOSTED_SYS/003_ems.navy.lk/LeaveSys/Signatures/5896.jpg'
+2021-11-04 13:55:24: == Sync Complete. Time: 00:00:00, Speed: 0 bytes/s, OK: 1, Errors: 0
+2021-11-04 13:55:24: Cannot rename lock file to stamp file: server said: The system cannot find the file specified.  (error 2)
+2021-11-04 13:55:24: Cannot delete Lock file: server said: Cannot delete file: The system cannot find the file specified.  (error 2)
+2021-11-04 13:55:24: 

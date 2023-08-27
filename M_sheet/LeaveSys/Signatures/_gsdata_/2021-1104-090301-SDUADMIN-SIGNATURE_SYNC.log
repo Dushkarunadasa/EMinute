@@ -1,0 +1,11 @@
+2021-11-04 09:03:01: -- Analysis Started by Periodic Timer
+2021-11-04 09:03:01: L: State file does not exist: gstp://10.10.1.236/file:///E:/IIS_HOSTED_SYS/002_leave.navy.lk/Signatures/_gsdata_/_file_state_v4._gs
+2021-11-04 09:03:02: R: State file does not exist: gstp://10.10.1.236/file:///E:/IIS_HOSTED_SYS/003_ems.navy.lk/LeaveSys/Signatures/_gsdata_/_file_state_v4._gs
+2021-11-04 09:03:02: Changes: 0, Conflicts: 0, CopyTime: 0, CopyState: 0/15, Errors: 0, All: 2947
+2021-11-04 09:03:02: == Sync Started by Periodic Timer
+2021-11-04 09:03:05: == Sync Complete. Time: 00:00:03, Speed: 0 bytes/s, OK: 15, Errors: 0
+2021-11-04 09:03:05: Cannot rename lock file to stamp file: server said: The system cannot find the file specified.  (error 2)
+2021-11-04 09:03:05: Cannot delete Lock file: server said: Cannot delete file: The system cannot find the file specified.  (error 2)
+2021-11-04 09:03:05: Cannot rename lock file to stamp file: server said: The system cannot find the file specified.  (error 2)
+2021-11-04 09:03:05: Cannot delete Lock file: server said: Cannot delete file: The system cannot find the file specified.  (error 2)
+2021-11-04 09:03:05: 

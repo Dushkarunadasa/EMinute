@@ -1,0 +1,138 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Login.master.cs" Inherits="M_sheet.Login" %>
+
+<!DOCTYPE html>
+
+
+
+<html lang="en">
+
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="">
+  <meta name="author" content="">
+
+  <title>E-Minute Sheet</title>
+
+  <!-- Bootstrap core CSS -->
+<%--  <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">--%>
+    <link href="LoginMS/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
+
+  <!-- Custom fonts for this template -->
+ <%-- <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:200,200i,300,300i,400,400i,600,600i,700,700i,900,900i" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Merriweather:300,300i,400,400i,700,700i,900,900i" rel="stylesheet">
+  --%>
+    <link href="LoginMS/vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css">
+  <!-- Custom styles for this template -->
+  <link href="LoginMS/css/coming-soon.min.css" rel="stylesheet">
+     
+
+
+
+
+
+
+
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<!-- Add icon library -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+body {font-family: Arial, Helvetica, sans-serif;}
+* {box-sizing: border-box;}
+
+.input-container {
+  display: -ms-flexbox; /* IE10 */
+  display: flex;
+  width: 100%;
+  margin-bottom: 15px;
+}
+
+.icon {
+  padding: 10px;
+  background: dodgerblue;
+  color: white;
+  min-width: 50px;
+  text-align: center;
+}
+
+.input-field {
+  width: 100%;
+  padding: 10px;
+  outline: none;
+}
+
+.input-field:focus {
+  border: 2px solid dodgerblue;
+}
+
+/* Set a style for the submit button */
+.btn {
+  background-color: dodgerblue;
+  color: white;
+  padding: 15px 20px;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  opacity: 0.9;
+}
+
+.btn:hover {
+  opacity: 1;
+}
+</style>
+
+</head>
+
+<body>
+
+  <div class="overlay"><img src="LoginMS/img/bg-mobile-fallback.jpg"  class ="img-fluid overlay " /></div>
+    
+
+  <div class="masthead">
+       
+    <div class="masthead-bg"></div>
+    <div class="container h-100">
+       
+
+      <div class="row h-100">
+              <form id="form1" runat="server">
+                                                      <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+                                            </asp:ContentPlaceHolder>
+                  </form>
+      </div>
+    </div>
+  </div>
+    
+  <div class="social-icons">
+    <ul class="list-unstyled text-center mb-0">
+      <li class="list-unstyled-item">
+        <a target="_blank" href="UserManual.aspx">
+          <i class="fab fa fa-book"></i>
+        </a>
+      </li>
+      <li class="list-unstyled-item">
+        <a target="_blank" href="AddUsers.aspx">
+          <i class="fab fa fa-user-plus"></i>
+        </a>
+      </li>
+      <li class="list-unstyled-item">
+        <a target="_blank" href="https://www.navy.lk/">
+          <i class="fab fa fa-anchor"></i>
+        </a>
+      </li>
+    </ul>
+  </div>
+
+  <!-- Bootstrap core JavaScript -->
+  <script src="LoginMS/vendor/jquery/jquery.min.js"></script>
+  <script src="LoginMS/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+  <!-- Custom scripts for this template -->
+  <script src="LoginMS/js/coming-soon.min.js"></script>
+  
+</body>
+
+</html>
